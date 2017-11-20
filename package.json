@@ -1,0 +1,17 @@
+{
+  "name": "ionic_pvn_location",
+  "version": "0.0.3",
+  "description": "ionic plugin for gettting lattitude and longitude",
+  "cordova": {
+    "id": "com.praveen.location",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "praveen kumar",
+  "license": "ISC"
+}
