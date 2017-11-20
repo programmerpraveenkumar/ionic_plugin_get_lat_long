@@ -1,6 +1,6 @@
 {
   "name": "ionic_pvn_location",
-  "version": "0.0.3",
+  "version": "0.0.7",
   "description": "ionic plugin for gettting lattitude and longitude",
   "cordova": {
     "id": "com.praveen.location",
@@ -13,5 +13,13 @@
     "cordova-android"
   ],
   "author": "praveen kumar",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programmerpraveenkumar/ionic_plugin_get_lat_long.git"
+  },
+  "bugs": {
+    "url": "https://github.com/programmerpraveenkumar/ionic_plugin_get_lat_long/issues"
+  },
+  "homepage": "https://github.com/programmerpraveenkumar/ionic_plugin_get_lat_long#readme"
 }

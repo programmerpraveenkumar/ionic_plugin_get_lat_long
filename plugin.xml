@@ -2,10 +2,14 @@
 <plugin id="com.praveen.location" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
   <name>ionic_prvn_location</name>
   <js-module name="prvn_location" src="www/ionic_prvn_location.js">
-    <clobbers target="cordova.plugins.ionic_prvn_location" /></js-module>
-    <platform name="android"><config-file parent="/*" target="res/xml/config.xml">
+    <clobbers target="cordova.plugins.prvn_location" />
+  </js-module>
+    <platform name="android">
+      <config-file parent="/*" target="res/xml/config.xml">
       <feature name="ionic_prvn_location">
-        <param name="android-package" value="com.praveen.location.ionic_prvn_location" /></feature></config-file>
+        <param name="android-package" value="com.praveen.location.ionic_prvn_location" />
+      </feature>
+    </config-file>
 <config-file parent="/*" target="AndroidManifest.xml"></config-file>
 <source-file src="src/android/ionic_prvn_location.java" target-dir="src/com/praveen/location" />
 <source-file src="src/android/getLocationValues.java" target-dir="src/com/praveen/location" />
