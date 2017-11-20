@@ -1,6 +1,6 @@
 {
   "name": "ionic_pvn_location",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "ionic plugin for gettting lattitude and longitude",
   "cordova": {
     "id": "com.praveen.location",
